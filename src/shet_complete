@@ -1,0 +1,10 @@
+
+_shet()
+{
+	local curr
+	curr="${COMP_WORDS[COMP_CWORD]}"
+	COMPREPLY=( $(shetls -c "$curr") )
+	compopt -o nospace shet
+}
+ 
+complete -o nospace -F _shet shet
