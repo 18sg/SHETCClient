@@ -7,7 +7,7 @@ A command line client for [SHET](https://github.com/18sg/SHET/).
 Requirements
 ------------
 
-- [SHETC](https://github.com/18sg/SHET/)
+- [SHETC](https://github.com/18sg/SHETC/)
 - [json-c](http://oss.metaparadigm.com/json-c/)
 - [scons](http://www.scons.org/)
 
