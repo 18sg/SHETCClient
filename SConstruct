@@ -3,7 +3,7 @@ import os.path
 
 env = Environment()
 
-env.ParseConfig("pkg-config json --cflags --libs")
+env.ParseConfig("pkg-config json-c --cflags --libs")
 env.ParseConfig("pkg-config shet --cflags --libs")
 
 env.Append(CCFLAGS = ['-g', '-Wall', '-O3',
